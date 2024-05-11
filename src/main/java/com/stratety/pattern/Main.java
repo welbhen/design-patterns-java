@@ -26,5 +26,10 @@ public class Main {
         System.out.println("Ducks are gonna try to fly:");
         mallard.performFly();
         rubber.performFly();
+
+        // Change on runtime the Fly behavior of one subclass of Duck
+        System.out.println("Something happened with our Mallard and it can't fly anymore:");
+        mallard.setFlyBehavior(new FlyNoWayImpl());
+        mallard.performFly();
     }
 }
