@@ -1,4 +1,4 @@
-package com.stratety.pattern;
+package com.strategy.pattern;
 
 /**
  * Mallard duck concrete class
