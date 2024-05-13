@@ -19,3 +19,8 @@ If ```X``` extends ```Y```, and each ```Y``` subclass *has-a* ```b``` behavior, 
 
 * "Convert the Interface of a class into another Interface".
 * "The Adapter delegates calls to the Adaptee and returns any needed value to the original caller (Client)".
+
+## Observer Pattern
+
+* "Loose coupling: Subject and Observers interact, but know little about each other".
+* "One-to-many dependency between objects, so when one object changes state all of its dependents (i.e., subscribers a.k.a. Observers) are notified and updated. Each dependent deals with the update on its own way".
