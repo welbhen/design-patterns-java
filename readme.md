@@ -24,3 +24,11 @@ If ```X``` extends ```Y```, and each ```Y``` subclass *has-a* ```b``` behavior, 
 
 * "Loose coupling: Subject and Observers interact, but know little about each other".
 * "One-to-many dependency between objects, so when one object changes state all of its dependents (i.e., subscribers a.k.a. Observers) are notified and updated. Each dependent deals with the update on its own way".
+
+## Decorator Pattern
+
+* "Extend behavior with composition".
+
+### Open-Closed Principal
+
+Classes should be *open* for extension, but *closed* for modification.
