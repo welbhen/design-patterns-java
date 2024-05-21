@@ -37,3 +37,11 @@ Classes should be *open* for extension, but *closed* for modification.
 
 * "Provides a way to access the elements of an aggregate object sequentially without exposing its underlying representation".
     * Aggregate objects examples: Arrays, Java Collection classes (e.g., ArrayList), Maps, Lists, Sets, etc.
+
+## Factory Patterns
+
+* "Factory is the only place where the concrete types are known, the client (consumer) would only need to know the interface".
+
+### The Factory Method Pattern
+
+Defines an interface for *creating* an object, but lets subclasses decide which class to *instantiate*.
