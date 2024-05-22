@@ -49,3 +49,16 @@ Classes should be *open* for extension, but *closed* for modification.
 Defines an interface for *creating* an object, but lets subclasses decide which class to *instantiate*.
 
 ## In-depth Studies
+
+### Creational Design Patterns
+
+Help manage the complexity of growing programming languages.
+
+* "Encapsulate knowledge about which concrete class should be used".
+* "Conceal how objects are created".
+
+#### Builder Pattern
+
+User a Builder Class to create the Object you need.
+
+* "Avoid complex constructors".
