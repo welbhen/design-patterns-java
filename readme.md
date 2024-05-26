@@ -59,6 +59,11 @@ Help manage the complexity of growing programming languages.
 
 #### Builder Pattern
 
-User a Builder Class to create the Object you need.
+Use a Builder Class to create the Object you need.
 
 * "Avoid complex constructors".
+
+#### Singleton Pattern
+
+* "Violates the single responsibility principal": a Singleton Class is responsible for the logic AND also responsible for ensuring it has only on instance.
+* "Classes that use a Singleton are tightly coupled to it".
