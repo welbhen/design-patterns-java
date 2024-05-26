@@ -67,3 +67,9 @@ Use a Builder Class to create the Object you need.
 
 * "Violates the single responsibility principal": a Singleton Class is responsible for the logic AND also responsible for ensuring it has only on instance.
 * "Classes that use a Singleton are tightly coupled to it".
+
+#### Prototype Pattern
+
+Useful for when you need a large number of same type objects.
+
+* "To handle mutability: a *deep* copy needs to be made instead of a *shallow* one".
