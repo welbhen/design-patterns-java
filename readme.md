@@ -73,3 +73,7 @@ Use a Builder Class to create the Object you need.
 Useful for when you need a large number of same type objects.
 
 * "To handle mutability: a *deep* copy needs to be made instead of a *shallow* one".
+
+#### Factory method Pattern
+
+* "Use when a class has to create instances of another class, but it doesn't know in advance what the concrete type of that class should be".
