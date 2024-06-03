@@ -1,10 +1,5 @@
 package com.patterns.creational.abstractfactories;
 
-import com.patterns.creational.factory.Snack;
-import com.patterns.creational.factory.VendingMachine;
-
-import java.util.Locale;
-
 /**
  * Main class.
  */
