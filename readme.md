@@ -77,3 +77,11 @@ Useful for when you need a large number of same type objects.
 #### Factory method Pattern
 
 * "Use when a class has to create instances of another class, but it doesn't know in advance what the concrete type of that class should be".
+
+#### Abstract Factories Pattern
+
+Factory of factories.
+
+* "System should be independent of how objects are created".
+* "It should be configured with one of multiple families of objects".
+* "The family of related objects should be used together".
